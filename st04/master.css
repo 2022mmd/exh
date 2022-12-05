@@ -1,5 +1,5 @@
 *{margin: 0;padding: 0;}
-.box{width: 100%;background-position-x: center;background-repeat: no-repeat;}
+.box{width: 100vw;background-position-x: center;background-repeat: no-repeat;}
 .box01{height: 1083px;background-image: url('img/p01.png');background-position-y: center;}
 .box02{height: 485px;}
 .box03{height: 917px;background-image: url('img/p02.png');}
