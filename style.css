@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+*{margin: 0;padding: 0;overflow: hidden;}
+.back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    background-image: linear-gradient(25deg, #f95b3e, #00879c, #74ff29, #df2cfe);
+}
+.rotate{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    opacity: 0.8;
+    animation-name: rotate_ani;
+}
+.rotate1{
+    background-image: linear-gradient(25deg, #ffffff, #dc23a2, #bd3144, #f5ee16);
+}
+.rotate2{
+    background-image: linear-gradient(90deg, #bc00bf, #c208d6, #cb426f, #ffccd9);
+    animation-delay: 0.5s;
+}
+.rotate3{
+    background-image: linear-gradient(25deg, #0614ff, #8144f1, #b36de2, #d996d1);
+    animation-delay: 1s;
+}
+.rotate4{
+    background-image: linear-gradient(25deg, #23a169, #739f32, #329eb4, #1f9cda);
+    animation-delay: 1.5s;
+}
+.rotate5{
+    background-image: linear-gradient(25deg, #ff2054, #df8d59, #abca5e, #1bff63);
+    animation-delay: 2s;
+}
+.rotate6{
+    background-image: linear-gradient(25deg, #fd0505, #de4461, #ad5fad, #0574fd);
+    animation-delay: 2.5s;
+}
+.rotate7{
+    background-image: linear-gradient(25deg, #fb0224, #e57751, #beae80, #70ddb2);
+    
+    animation-delay: 3s;
+}
+
+
+
+/**--텍스트 콘텐츠--**/
+.box0{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 15;
+    opacity: 0.8;
+}
+.box0 > .title{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: -0.02em;
+    font-size: 18em;
+    line-height: 0.6em;
+    color: rgb(255, 162, 119);
+    animation-duration: 5s;
+    animation-name: txt_ani1;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+.box0 > .sub_title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 12em;
+    letter-spacing: -0.02em;
+    line-height: 0.5em;
+    color: white;
+    animation-duration: 10s;
+    animation-name: txt_ani2;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+.box0 > .txt{
+    font-size: 4.5em;
+    letter-spacing: -0.06em;
+    line-height: 0.8em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.894);
+}
+.box0 > .caption{
+    font-size: 3em;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(255, 164, 122);
+    line-height: 0.8em;
+    letter-spacing: 0.4em;
+    animation-duration: 15s;
+    animation-name: txt_ani3;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+
+/**--버튼 hover시 노출되는 요소--**/
+.box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 20;
+    opacity: 0;
+    right: 0;
+}
+.box1{background-image: linear-gradient(25deg, #6c0051, #9d0045, #cd0037, #fe0024);}
+.box2{background-image: linear-gradient(25deg, #8312ba, #a62290, #bd3367, #cd443c);}
+.box3{background-image: linear-gradient(25deg, #f25a5d, #f0814f, #eba23c, #e4c01b);}
+.box4{background-image: linear-gradient(25deg, #00acf4, #a1afb3, #d4b270, #f6b700);}
+.box5{background-image: linear-gradient(25deg, #e33735, #ce7d6d, #a4aea8, #00dbe6);}
+.box6{background-image: linear-gradient(25deg, #6620fc, #b36fc3, #d5b184, #e2f305);}
+.box7{background-image: linear-gradient(25deg, #006ac5, #498a9f, #51aa75, #3ecc40);}
+.box8{background-image: linear-gradient(25deg, #4338aa, #556d9f, #52a092, #24d480);}
+.box9{background-image: linear-gradient(25deg, #0371cc, #898f9e, #bbb16a, #e1d600); }
+.box10{background-image: linear-gradient(25deg, #0071bc, #907896, #cd7e6f, #ff8443);}
+.box11{background-image: linear-gradient(25deg, #182988, #324898, #4467a9, #5288b9);}
+.box12{background-image: linear-gradient(25deg, #fb0000, #ee805a, #cac1aa, #56fcff);}
+
+.bt{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    border-radius: 30em;
+    right: 0px;
+    top: 15%;
+    z-index: 30;
+    opacity: 0.4;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    animation-duration: 6s;
+    animation-name: bt_ani;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+ .bt1{animation-delay: 0.5s;margin: 0px 30px 0px 0px;}
+ .bt2{animation-delay: 1.0s;margin: 55px 30px 0px 0px;}
+ .bt3{animation-delay: 1.5s;margin: 110px 30px 0px 0px;}
+ .bt4{animation-delay: 2.0s;margin: 165px 30px 0px 0px;}
+ .bt5{animation-delay: 2.5s;margin: 220px 30px 0px 0px;}
+ .bt6{animation-delay: 3.0s;margin: 275px 30px 0px 0px;}
+ .bt7{animation-delay: 3.5s;margin: 330px 30px 0px 0px;}
+ .bt8{animation-delay: 4.0s;margin: 385px 30px 0px 0px;}
+ .bt9{animation-delay: 4.5s;margin: 440px 30px 0px 0px;}
+.bt10{animation-delay: 5.0s;margin: 495px 30px 0px 0px;}
+.bt11{animation-delay: 5.5s;margin: 550px 30px 0px 0px;}
+.bt12{animation-delay: 6.0s;margin: 605px 30px 0px 0px;}
+
+/*--set01
+  .bt1:hover ~ .box1{opacity: 0.7;mix-blend-mode:color-dodge;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt2:hover ~ .box2{opacity: 0.4;mix-blend-mode:color-burn;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt3:hover ~ .box3{opacity: 0.9;mix-blend-mode:overlay;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt4:hover ~ .box4{opacity: 0.7;mix-blend-mode:color-burn;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt5:hover ~ .box5{opacity: 0.9;mix-blend-mode:overlay;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt6:hover ~ .box6{opacity: 0.7;mix-blend-mode:color-burn;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt7:hover ~ .box7{opacity: 0.4;mix-blend-mode:color-dodge;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt8:hover ~ .box8{opacity: 0.4;mix-blend-mode:color-burn;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt9:hover ~ .box9{opacity: 0.7;mix-blend-mode:overlay;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+.bt10:hover ~ .box10{opacity: 0.4;mix-blend-mode:color-burn;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+.bt11:hover ~ .box11{opacity: 0.4;mix-blend-mode:multiply;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+.bt12:hover ~ .box12{opacity: 0.4;mix-blend-mode:color-dodge;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+--*/
+
+/*--set02
+  .bt1:hover ~ .box1{opacity: 0.9;mix-blend-mode:color-dodge;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt2:hover ~ .box2{opacity: 0.9;mix-blend-mode:color-dodge;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt3:hover ~ .box3{opacity: 0.9;mix-blend-mode:color-dodge;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt4:hover ~ .box4{opacity: 0.9;mix-blend-mode:color-dodge;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt5:hover ~ .box5{opacity: 0.9;mix-blend-mode:color-dodge;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt6:hover ~ .box6{opacity: 0.9;mix-blend-mode:color-dodge;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt7:hover ~ .box7{opacity: 0.9;mix-blend-mode:color-dodge;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt8:hover ~ .box8{opacity: 0.9;mix-blend-mode:color-dodge;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt9:hover ~ .box9{opacity: 0.9;mix-blend-mode:color-dodge;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+.bt10:hover ~ .box10{opacity: 0.9;mix-blend-mode:color-dodge;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+.bt11:hover ~ .box11{opacity: 0.9;mix-blend-mode:color-dodge;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+.bt12:hover ~ .box12{opacity: 0.9;mix-blend-mode:color-dodge;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+--*/
+
+/*--set03--*/
+  .bt1:hover ~ .box1{opacity: 0.9;mix-blend-mode:color-burn;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt2:hover ~ .box2{opacity: 0.9;mix-blend-mode:color-burn;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt3:hover ~ .box3{opacity: 0.9;mix-blend-mode:color-burn;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt4:hover ~ .box4{opacity: 0.9;mix-blend-mode:color-burn;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt5:hover ~ .box5{opacity: 0.9;mix-blend-mode:color-burn;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt6:hover ~ .box6{opacity: 0.9;mix-blend-mode:color-burn;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt7:hover ~ .box7{opacity: 0.9;mix-blend-mode:color-burn;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt8:hover ~ .box8{opacity: 0.9;mix-blend-mode:color-burn;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+  .bt9:hover ~ .box9{opacity: 0.9;mix-blend-mode:color-burn;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+.bt10:hover ~ .box10{opacity: 0.9;mix-blend-mode:color-burn;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+.bt11:hover ~ .box11{opacity: 0.9;mix-blend-mode:color-burn;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+.bt12:hover ~ .box12{opacity: 0.9;mix-blend-mode:color-burn;animation-duration: 2s;animation-name: hover_ani;animation-direction:alternate;}
+
+
+ .bt1:hover{background-image: linear-gradient(25deg, #6c0051, #9d0045, #cd0037, #fe0024);}
+ .bt2:hover{background-image: linear-gradient(25deg, #8312ba, #a62290, #bd3367, #cd443c);}
+ .bt3:hover{background-image: linear-gradient(25deg, #f25a5d, #f0814f, #eba23c, #e4c01b);}
+ .bt4:hover{background-image: linear-gradient(25deg, #00acf4, #a1afb3, #d4b270, #f6b700);}
+ .bt5:hover{background-image: linear-gradient(25deg, #e33735, #ce7d6d, #a4aea8, #00dbe6);}
+ .bt6:hover{background-image: linear-gradient(25deg, #6620fc, #b36fc3, #d5b184, #e2f305);}
+ .bt7:hover{background-image: linear-gradient(25deg, #006ac5, #498a9f, #51aa75, #3ecc40);}
+ .bt8:hover{background-image: linear-gradient(25deg, #4338aa, #556d9f, #52a092, #24d480);}
+ .bt9:hover{background-image: linear-gradient(25deg, #0371cc, #898f9e, #bbb16a, #e1d600);}
+.bt10:hover{background-image: linear-gradient(25deg, #0071bc, #907896, #cd7e6f, #ff8443);}
+.bt11:hover{background-image: linear-gradient(25deg, #182988, #324898, #4467a9, #5288b9);}
+.bt12:hover{background-image: linear-gradient(25deg, #fb0000, #ee805a, #cac1aa, #56fcff);}
+
+.bt:hover{
+    opacity: 1;
+    transition: all 0.5s;
+    filter: drop-shadow(0px 0px 3px rgb(255, 255, 255));
+    letter-spacing: 1em;
+}
+
+
+@keyframes hover_ani{
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+
+@keyframes rotate_ani{
+    0%{
+        transform: rotate(0turn);
+    }
+    100%{
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes txt_ani1{
+    0%{}
+    20%{color: #fdfdfd;}
+    40%{color: #80ffa8;}
+    60%{color: #fdfdfd;}
+    80%{color: #86bdff;}
+    100%{color: #fdfdfd;}
+}
+@keyframes txt_ani2{
+    0%{color: #ff8b8b;}
+    20%{color: #ffb872;}
+    40%{color: #fdfdfd;letter-spacing: 0.1em;}
+    60%{color: #90e9ff;}
+    80%{color: #d17bff;}
+    100%{color: #ff9cba;}
+}
+@keyframes txt_ani3{
+    0%{}
+    100%{color: white;letter-spacing: -0.01em;}
+}
+@keyframes bt_ani{
+    0%{}
+    25%{border-radius: 30em 0px 30em 30em;opacity: 0.8;}
+    50%{border-radius: 30em 30em 0px 30em;opacity: 0.8;}
+    75%{border-radius: 30em 30em 30em 0px ;opacity: 0.8;}
+}
+
+@media screen and (max-width:1920px){
+    .box0 > .title{
+        font-size: 18em;
+        line-height: 0.6em;
+    }
+
+    .box0 > .sub_title{
+        font-size: 12em;
+        line-height: 0.6em;
+    }
+    .box0 > .txt{
+        font-size: 4.5em;
+        line-height: 0.8em;
+    }
+    .box0 > .caption{
+        font-size: 3em;
+        line-height: 0.8em;
+    }
+    .bt{
+        font-size: 1.2em;
+        width: 50px;
+        height: 50px;
+    }
+    .bt1{animation-delay: 0.5s;margin: 0px 30px 0px 0px;}
+    .bt2{animation-delay: 1.0s;margin: 55px 30px 0px 0px;}
+    .bt3{animation-delay: 1.5s;margin: 110px 30px 0px 0px;}
+    .bt4{animation-delay: 2.0s;margin: 165px 30px 0px 0px;}
+    .bt5{animation-delay: 2.5s;margin: 220px 30px 0px 0px;}
+    .bt6{animation-delay: 3.0s;margin: 275px 30px 0px 0px;}
+    .bt7{animation-delay: 3.5s;margin: 330px 30px 0px 0px;}
+    .bt8{animation-delay: 4.0s;margin: 385px 30px 0px 0px;}
+    .bt9{animation-delay: 4.5s;margin: 440px 30px 0px 0px;}
+   .bt10{animation-delay: 5.0s;margin: 495px 30px 0px 0px;}
+   .bt11{animation-delay: 5.5s;margin: 550px 30px 0px 0px;}
+   .bt12{animation-delay: 6.0s;margin: 605px 30px 0px 0px;}
+  } 
+  .bt:hover{
+    width: 95%;
+}
+
+  @media screen and (min-width:1921px){
+    .box0 > .title{
+        font-size: 24em;
+        line-height: 0.7em;
+    }
+    .box0 > .sub_title{
+        font-size: 16em;
+        letter-spacing: -0.02em;
+        line-height: 0.5em;
+    }
+    .box0 > .txt{
+        font-size: 6.5em;
+        line-height: 0.8em;
+    }
+    .box0 > .caption{
+        font-size: 5em;
+        line-height: 0.8em;
+    }
+    .bt{
+        font-size: 1.5em;
+        width: 80px;
+        height: 80px;
+    }
+     .bt1{animation-delay: 0.5s;margin: 0px   40px 0px 0px;}
+     .bt2{animation-delay: 1.0s;margin: 85px  40px 0px 0px;}
+     .bt3{animation-delay: 1.5s;margin: 170px 40px 0px 0px;}
+     .bt4{animation-delay: 2.0s;margin: 255px 40px 0px 0px;}
+     .bt5{animation-delay: 2.5s;margin: 340px 40px 0px 0px;}
+     .bt6{animation-delay: 3.0s;margin: 425px 40px 0px 0px;}
+     .bt7{animation-delay: 3.5s;margin: 510px 40px 0px 0px;}
+     .bt8{animation-delay: 4.0s;margin: 595px 40px 0px 0px;}
+     .bt9{animation-delay: 4.5s;margin: 680px 40px 0px 0px;}
+    .bt10{animation-delay: 5.0s;margin: 765px 40px 0px 0px;}
+    .bt11{animation-delay: 5.5s;margin: 850px 40px 0px 0px;}
+    .bt12{animation-delay: 6.0s;margin: 935px 40px 0px 0px;}
+  } 
+.bt:hover{
+    width: 95%;
+}

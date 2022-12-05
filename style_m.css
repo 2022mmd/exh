@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+*{margin: 0;padding: 0;overflow: hidden;text-decoration: none;}
+a:link, :visited, :active{color: rgb(63, 0, 24);}
+.back{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+    background-image: linear-gradient(25deg, #f95b3e, #00879c, #74ff29, #df2cfe);
+    overflow: hidden;
+}
+.rotate{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    opacity: 0.8;
+    animation-name: rotate_ani;
+    overflow: hidden;
+}
+.rotate1{background-image: linear-gradient(25deg, #ffffff, #dc23a2, #bd3144, #f5ee16);}
+.rotate2{background-image: linear-gradient(90deg, #bc00bf, #c208d6, #cb426f, #ffccd9);animation-delay: 0.5s;}
+.rotate3{background-image: linear-gradient(25deg, #0614ff, #8144f1, #b36de2, #d996d1);animation-delay: 1s;}
+.rotate4{background-image: linear-gradient(25deg, #23a169, #739f32, #329eb4, #1f9cda);animation-delay: 1.5s;}
+.rotate5{background-image: linear-gradient(25deg, #ff2054, #df8d59, #abca5e, #1bff63);animation-delay: 2s;}
+.rotate6{background-image: linear-gradient(25deg, #fd0505, #de4461, #ad5fad, #0574fd);animation-delay: 2.5s;}
+.rotate7{background-image: linear-gradient(25deg, #fb0224, #e57751, #beae80, #70ddb2);animation-delay: 3s;}
+
+
+
+/**--텍스트 콘텐츠--**/
+.box0{
+    padding-top: 2vh;
+    padding-left: 10px;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 15;
+    opacity: 0.8;
+}
+.box0 > .title{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: -0.02em;
+    font-size: 4.5em;
+    line-height: 0.8em;
+    color: rgb(255, 162, 119);
+    animation-duration: 5s;
+    animation-name: txt_ani1;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+.box0 > .sub_title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5em;
+    letter-spacing: -0.02em;
+    line-height: 0.6em;
+    color: white;
+    animation-duration: 10s;
+    animation-name: txt_ani2;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+.box0 > .txt{
+    font-size: 2.2em;
+    letter-spacing: -0.08em;
+    line-height: 0.6em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.894);
+}
+.box0 > .caption{
+    font-size: 1.8em;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(255, 164, 122);
+    line-height: 0.9em;
+    letter-spacing: 0em;
+    animation-duration: 15s;
+    animation-name: txt_ani3;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+
+}
+
+.blank1{height: .2em;}
+.blank2{height: .5em;}
+
+.bt_box {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vh;
+    width: 94vw;
+    height: 29vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    bottom: 2vh;
+}
+
+
+.bt{
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    border-radius: 3em;
+    top: 1.5vh;
+    z-index: 30;
+    opacity: 0.6;
+    right: 0.8em;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(63, 0, 24);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.9em;
+    font-weight: 4300;
+    letter-spacing: -0.05em;
+    animation-duration: 6s;
+    animation-name: bt_ani;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+ .bt1{animation-delay: 0.5s;grid-area: 1 / 1 / 2 / 2;}
+ .bt2{animation-delay: 1.0s;grid-area: 1 / 2 / 2 / 3;}
+ .bt3{animation-delay: 1.5s;grid-area: 1 / 3 / 2 / 4;}
+ .bt4{animation-delay: 2.0s;grid-area: 1 / 4 / 2 / 5;}
+ .bt5{animation-delay: 2.5s;grid-area: 2 / 1 / 3 / 2;}
+ .bt6{animation-delay: 3.0s;grid-area: 2 / 2 / 3 / 3;}
+ .bt7{animation-delay: 3.5s;grid-area: 2 / 3 / 3 / 4;}
+ .bt8{animation-delay: 4.0s;grid-area: 2 / 4 / 3 / 5;}
+ .bt9{animation-delay: 4.5s;grid-area: 3 / 1 / 4 / 2;}
+.bt10{animation-delay: 5.0s;grid-area: 3 / 2 / 4 / 3;}
+.bt11{animation-delay: 5.5s;grid-area: 3 / 3 / 4 / 4;}
+.bt12{animation-delay: 6.0s;grid-area: 3 / 4 / 4 / 5;}
+
+@media screen and (min-width:650px){
+    .bt_box{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 1vw;
+        grid-row-gap: 2vh;
+        width: 25vw;
+        height: 94vh;
+        border: 0px solid red;
+        top: 2vh;
+        right: 0vw;
+    }
+    .box0 > .title{
+        display: inline-block;
+        width: 50vw;
+        border: 0px solid blue;
+        font-size: 4em;
+    }
+    .box0 > .txt{
+        font-size: 1.5em;
+    }
+    .bt1{animation-delay: 0.5s;grid-area: 1 / 1 / 2 / 2;}
+    .bt2{animation-delay: 1.0s;grid-area: 1 / 2 / 2 / 3;}
+    .bt3{animation-delay: 1.5s;grid-area: 2 / 1 / 3 / 2;}
+    .bt4{animation-delay: 2.0s;grid-area: 2 / 2 / 3 / 3;}
+    .bt5{animation-delay: 2.5s;grid-area: 3 / 1 / 4 / 2;}
+    .bt6{animation-delay: 3.0s;grid-area: 3 / 2 / 4 / 3;}
+    .bt7{animation-delay: 3.5s;grid-area: 4 / 1 / 5 / 2;}
+    .bt8{animation-delay: 4.0s;grid-area: 4 / 2 / 5 / 3;}
+    .bt9{animation-delay: 4.5s;grid-area: 5 / 1 / 6 / 2;}
+   .bt10{animation-delay: 5.0s;grid-area: 5 / 2 / 6 / 3;}
+   .bt11{animation-delay: 5.5s;grid-area: 6 / 1 / 7 / 2;}
+   .bt12{animation-delay: 6.0s;grid-area: 6 / 2 / 7 / 3;}
+}
+
+@keyframes rotate_ani{
+    0%{
+        transform: rotate(0turn);
+    }
+    100%{
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes txt_ani1{
+    0%{}
+    20%{color: #fdfdfd;}
+    40%{color: #80ffa8;}
+    60%{color: #fdfdfd;}
+    80%{color: #86bdff;}
+    100%{color: #fdfdfd;}
+}
+@keyframes txt_ani2{
+    0%{color: #ff8b8b;}
+    20%{color: #ffb872;}
+    40%{color: #fdfdfd;letter-spacing: 0em;}
+    60%{color: #90e9ff;}
+    80%{color: #d17bff;}
+    100%{color: #ff9cba;}
+}
+@keyframes txt_ani3{
+    0%{}
+    100%{color: white;letter-spacing: 0.12em;}
+}
+@keyframes bt_ani{
+    0%{}
+    25%{border-radius: 3em 0em 3em 3em;opacity: 0.3;}
+    50%{border-radius: 3em 3em 0em 3em;opacity: 0.6;}
+    75%{border-radius: 3em 3em 3em 0em;opacity: 0.9;}
+}
