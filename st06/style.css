@@ -2,7 +2,7 @@
 body{background-color: #212428;}
 section{overflow: hidden;}
 
-.box00{position: relative;width: 100%;display: flex;justify-content: center;align-items: center;}
+.box00{position: relative;width: 100vw;display: flex;justify-content: center;align-items: center;}
 .box01{height: 1130px;background-image: url('img/01_bg.png');background-position-x: center;background-position-y: bottom;background-repeat: no-repeat;}
 .box02{height: 1744px;}
 .box03{height: 1148px;background-color: #38D5A0;}
