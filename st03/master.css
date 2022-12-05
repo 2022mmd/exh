@@ -1,0 +1,47 @@
+*{margin: 0;padding: 0;}
+section{
+    overflow: hidden;
+}
+.box{width: 100vw;background-position-x: center;display: flex;justify-content: center;align-items: center;}
+.box01{height: 439px;;background-image: url('img/001_bg.png');}
+.box02{height: 784px;background-color: #E1E1E1;}
+.box03{height: 1080px;background-image: url('img/003.png');background-color: #454544;background-repeat: no-repeat;}
+.box04{height: 804px;background-color: #1A1A1A;background-image: url('img/004.png');background-repeat: no-repeat;}
+.box05{height: 785px;background-color: #f3f3f3;background-image: url('img/005.png');background-repeat: no-repeat;}
+.box06{height: 1047px;background-image: url('img/006.png');background-size: cover;}
+.box07{height: 1080px;background-image: url('img/007.png');background-size: cover;}
+.box08{height: 922px;background-color: #111111;background-image: url('img/008.png');background-repeat: no-repeat;}
+.box09{height: 1022px;background-image: url('img/009.png');background-size: cover;}
+.box10{height: 1079px;background-image: url('img/010.png');background-size: cover;}
+.box11{height: 2163px;background-image: url('img/011.png');background-repeat: no-repeat;background-color: #f7f7f7;}
+.box12{height: 1079px;background-image: url('img/012.png');background-size: cover;}
+.box13{height: 1080px;background-image: url('img/013.png');background-repeat: no-repeat;}
+.box14{height: 1080px;background-image: url('img/014.png');background-repeat: no-repeat;}
+.box15{height: 1080px;background-image: url('img/015.png');background-position-x: right;background-position-y: bottom;background-repeat: no-repeat;}
+.box16{height: 3227px;background-image: url('img/016.png');background-repeat: no-repeat;background-color: #f7f7f7;}
+.box17{height: 1087px;background-image: url('img/017.png');background-repeat: no-repeat;}
+.box18{height: 1079px;background-image: url('img/018.png');background-repeat: no-repeat;background-color: #fce94f;}
+.box19{height: 394px;background-image: url('img/019.png');background-repeat: no-repeat;}
+.box20{height: 1080px;background-image: url('img/020.png');background-repeat: no-repeat;background-color: #f9ff59;}
+.box21{height: 360px;background-image: url('img/021.png');background-repeat: no-repeat;}
+.box22{height: 990px;background-image: url('img/022.png');background-repeat: no-repeat;background-color: #f8f8f8;}
+.box23{height: 420px;background-image: url('img/023.png');background-repeat: no-repeat;}
+.box24{height: 872px;background-image: url('img/024.png');background-repeat: no-repeat;}
+.box25{height: 909px;background-image: url('img/025.png');background-repeat: no-repeat;}
+.box26{height: 853px;background-image: url('img/026.png');background-repeat: no-repeat;}
+.box27{height: 420px;background-image: url('img/027.png');background-repeat: no-repeat;}
+.box28{height: 872px;background-image: url('img/028.png');background-repeat: no-repeat;background-color: #ead9af;}
+.box29{height: 483px;background-image: url('img/029.png');background-repeat: no-repeat;}
+.box30{height: 1229px;background-image: url('img/030.png');background-repeat: no-repeat;margin-bottom: 30px;}
+.box31{height: 1077px;background-image: url('img/031.png');background-repeat: no-repeat;background-size: cover;background-position-y: center;}
+.box32{height: 1080px;background-image: url('img/032.png');background-repeat: no-repeat;background-color: #f7f7f7;}
+.box33{height: 1872px;background-image: url('img/033.png');background-repeat: no-repeat;background-color: #f7f7f7;}
+.box34{height: 1080px;background-image: url('img/034.png');background-repeat: no-repeat;background-size: cover;background-position-y: center;}
+.box35{height: 1080px;background-image: url('img/035.png');background-repeat: no-repeat;background-color: #f8f8f8;}
+.box36{height: 1162px;background-image: url('img/036.png');background-repeat: no-repeat;background-size: cover;background-position-y: center;}
+.box37{height: 439px;background-color: #1b1f21;background-image: url('img/037.png');background-repeat: no-repeat;}
+
+.wrap14{width: 100%;height: 1080px;background-image: url('img/014bg.png');background-size: cover;}
+.wrap15{width: 100%;height: 1080px;background-image: url('img/015bg.png');background-size: cover;}
+.wrap17{width: 100%;height: 1087px;background-image: url('img/017bg.png');background-size: cover;}
+
