@@ -1,5 +1,6 @@
 *{margin: 0;padding: 0;}
 body{background-color: #000000;}
+section{width: 100vw;overflow: hidden;}
 
 .box00{position: relative;width: 1100vw;display: flex;justify-content: center;background-position: center;background-repeat: no-repeat;}
 .box01{height: 1195px;background-color: #DCD9EA;}
