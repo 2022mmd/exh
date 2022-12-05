@@ -1,0 +1,32 @@
+*{margin: 0;padding: 0;}
+body{background-color: #212428;}
+section{overflow: hidden;}
+
+.box00{position: relative;width: 100%;display: flex;justify-content: center;align-items: center;}
+.box01{height: 1130px;background-image: url('img/01_bg.png');background-position-x: center;background-position-y: bottom;background-repeat: no-repeat;}
+.box02{height: 1744px;}
+.box03{height: 1148px;background-color: #38D5A0;}
+.box04{height: 1255px;background-image: url('img/04_bg.png');background-size: cover;}
+.box05{height: 693px;background-color: #191919;}
+.box06{height: 756px;width: 100%;display: flex;justify-content: space-between;}
+.box07{height: 1001px;background-color: #191919;}
+.box08{height: 756px;width: 100%;display: flex;align-items: center;justify-content: end;background-color: #191919;}
+.box09{height: 766px;background-color: #191919;}
+.box10{height: 5772px;background-color: #212428;}
+.box11{height: 610px;background-color: #38D592;}
+
+
+.sb01{width: 1205px;height: 1040px;background-image: url('img/01.png');background-repeat: no-repeat;}
+.sb02{width: 1643px;height: 1748px;background-image: url('img/02.png');background-repeat: no-repeat;}
+.sb03{width: 1920px;height: 1148px;background-image: url('img/03.png');background-repeat: no-repeat;}
+.sb04{width: 1205px;height: 1103px;background-image: url('img/04.png');justify-content: baseline;}
+.sb05{width: 1205px;height: 327px;background-image: url('img/05.png');background-repeat: no-repeat;}
+.sb06-1{width: 50%;height: 756px;background-image: url('img/06.png');background-position: center;background-repeat: no-repeat;}
+.sb06-2{width: 50%;height: 756px;background-image: url('img/07.png');background-size: cover;background-repeat: no-repeat;}
+.sb07{height: 381px;width: 1209px;background-image: url('img/08.png');background-position: center;background-repeat: no-repeat;}
+.sb08{height: 756px;width: 1567px;background-image: url('img/09.png');background-position: center;background-repeat: no-repeat;}
+.sb09{height: 766px;width: 1196px;background-image: url('img/10.png');background-position: center;background-repeat: no-repeat;}
+.sb10{width: 1205px;height: 5501px;background-image: url('img/11.png');background-repeat: no-repeat;}
+.sb11{width: 223px;height: 32px;background-image: url('img/12.png');background-repeat: no-repeat;}
+
+
