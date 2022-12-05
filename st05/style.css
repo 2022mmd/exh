@@ -2,7 +2,7 @@
 body{background-color: #000000;}
 section{width: 100vw;overflow: hidden;}
 
-.box00{position: relative;width: 1100vw;display: flex;justify-content: center;background-position: center;background-repeat: no-repeat;}
+.box00{position: relative;width: 100vw;display: flex;justify-content: center;background-position: center;background-repeat: no-repeat;}
 .box01{height: 1195px;background-color: #DCD9EA;}
 .box02{height: 1152px;background-color: #E3E4E3;}
 .box03{height: 1080px;background-color: #000000;}
@@ -16,16 +16,16 @@ section{width: 100vw;overflow: hidden;}
 .box11{height:   99px;background-color: #000000;}
 
 .sb00{width: 1920px;background-position: center;background-repeat: no-repeat;}
-.sb01{height: 1195px;background-image: url('img/01.png');}
-.sb02{height: 1152px;background-image: url('img/02.png');}
-.sb03{height: 1080px;background-image: url('img/03.png');}
-.sb04{height: 1945px;background-image: url('img/04.png');}
-.sb05{height: 1532px;background-image: url('img/05.png');}
-.sb06{height: 1692px;background-image: url('img/06.png');}
-.sb07{height: 1275px;background-image: url('img/07.png');}
-.sb08{height: 1384px;background-image: url('img/08.png');}
-.sb09{height: 2391px;background-image: url('img/09.png');}
-.sb10{height: 1195px;background-image: url('img/10.png');}
-.sb11{height:   99px;background-image: url('img/11.png');}
+.sb01{height: 1195px;background-image: url('img/st05_01.png');}
+.sb02{height: 1152px;background-image: url('img/st05_02.png');}
+.sb03{height: 1080px;background-image: url('img/st05_03.png');}
+.sb04{height: 1945px;background-image: url('img/st05_04.png');}
+.sb05{height: 1532px;background-image: url('img/st05_05.png');}
+.sb06{height: 1692px;background-image: url('img/st05_06.png');}
+.sb07{height: 1275px;background-image: url('img/st05_07.png');}
+.sb08{height: 1384px;background-image: url('img/st05_08.png');}
+.sb09{height: 2391px;background-image: url('img/st05_09.png');}
+.sb10{height: 1195px;background-image: url('img/st05_10.png');}
+.sb11{height:   99px;background-image: url('img/st05_11.png');}
 
 
